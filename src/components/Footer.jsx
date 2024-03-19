@@ -45,6 +45,7 @@ function Footer() {
           </div>
           <div className="line"></div>
           <p  className="footer_end-t">2023 furino. All rights reverved</p>
+          
         </div>
       
     </div>

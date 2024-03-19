@@ -3,7 +3,6 @@ import bg from "../assets/headbg.svg";
 import range2 from "../assets/rnge 2.svg";
 import range3 from "../assets/range3.svg";
 import bg2 from "../assets/bg2.svg";
-
 import "../sass/home.scss";
 import { Link } from "react-router-dom";
 
@@ -22,7 +21,6 @@ function Home() {
     fetchCard();
   }, []);
 
-  console.log(data);
   return (
     <div className="home">
       <div

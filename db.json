@@ -18,7 +18,7 @@
       "image": "./src/assets/card2.svg"
     },
     {
-      "id": 3,  
+      "id": 3,
       "title": "Lolito",
       "description": "Luxury big sofa",
       "price": "  7.000.000",
@@ -68,7 +68,7 @@
       "image": "./src/assets/card2.svg"
     }
   ],
-    
+
   "shop": [
     {
       "id": 1,
@@ -78,7 +78,7 @@
       "discount": "  3.500.000",
       "circle": "-30%",
       "category": "Chair",
-      "image": "./assets/img/img1.png"
+      "image": "./src/assets/card1.svg"
     },
     {
       "id": 2,
@@ -87,7 +87,7 @@
       "price": "  2.500.000",
       "circle": "New",
       "category": "Chair",
-      "image": "./assets/img/img2.png"
+      "image": "./src/assets/card2.svg"
     },
     {
       "id": 3,
@@ -97,7 +97,7 @@
       "circle": "-50%",
       "category": "Beds",
       "discount": "  14.000.000",
-      "image": "./assets/img/img3.png"
+      "image": "./src/assets/card3.svg"
     },
     {
       "id": 4,
@@ -106,7 +106,7 @@
       "price": "  500.000",
       "circle": "New",
       "category": "Desk",
-      "image": "./assets/img/img4.png"
+      "image": "./src/assets/card4.svg"
     },
 
     {
@@ -117,7 +117,7 @@
       "discount": "  3.500.000",
       "circle": "-30%",
       "category": "Chair",
-      "image": "./assets/img/img1.png"
+      "image": "./src/assets/card5.svg"
     },
     {
       "id": 6,
@@ -126,7 +126,7 @@
       "price": "  2.500.000",
       "circle": "New",
       "category": "Chair",
-      "image": "./assets/img/img2.png"
+      "image": "./src/assets/card6.svg"
     },
     {
       "id": 7,
@@ -136,7 +136,7 @@
       "circle": "-50%",
       "category": "Beds",
       "discount": "  14.000.000",
-      "image": "./assets/img/img3.png"
+      "image": "./src/assets/card1.svg"
     },
     {
       "id": 8,
@@ -145,7 +145,7 @@
       "price": "  500.000",
       "circle": "New",
       "category": "Desk",
-      "image": "./assets/img/img4.png"
+      "image": "./src/assets/card2.svg"
     },
     {
       "id": 9,
@@ -155,7 +155,7 @@
       "discount": "  3.500.000",
       "circle": "-30%",
       "category": "Chair",
-      "image": "./assets/img/img1.png"
+      "image": "./src/assets/card3.svg"
     },
     {
       "id": 10,
@@ -164,7 +164,7 @@
       "price": "  2.500.000",
       "circle": "New",
       "category": "Chair",
-      "image": "./assets/img/img2.png"
+      "image": "./src/assets/card4.svg"
     },
     {
       "id": 11,
@@ -174,7 +174,7 @@
       "circle": "-50%",
       "category": "Beds",
       "discount": "  14.000.000",
-      "image": "./assets/img/img3.png"
+      "image": "./src/assets/card5.svg"
     },
     {
       "id": 12,
@@ -183,7 +183,7 @@
       "price": "  500.000",
       "circle": "New",
       "category": "Desk",
-      "image": "./assets/img/img4.png"
+      "image": "./src/assets/card6.svg"
     },
     {
       "id": 13,
@@ -193,7 +193,7 @@
       "discount": "  3.500.000",
       "circle": "-30%",
       "category": "Chair",
-      "image": "./assets/img/img1.png"
+      "image": "./src/assets/card1.svg"
     },
     {
       "id": 14,
@@ -202,7 +202,7 @@
       "price": "  2.500.000",
       "circle": "New",
       "category": "Chair",
-      "image": "./assets/img/img2.png"
+      "image": "./src/assets/card2.svg"
     },
     {
       "id": 15,
@@ -212,7 +212,7 @@
       "circle": "-50%",
       "category": "Beds",
       "discount": "  14.000.000",
-      "image": "./assets/img/img3.png"
+      "image": "./src/assets/card3.svg"
     },
     {
       "id": 16,
@@ -221,7 +221,7 @@
       "price": "  500.000",
       "circle": "New",
       "category": "Desk",
-      "image": "./assets/img/img4.png"
+      "image": "./src/assets/card4.svg"
     }
   ]
 }
