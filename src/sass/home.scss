@@ -1,5 +1,262 @@
-.home{
-    .bd-img{
-        background-image: url("headbg.svg");
+.home {
+  .bd-img {
+    .head {
+      .head_info {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-top: 100px;
+        height: 720px;
+        .head_info-text {
+          width: 561px;
+          border-radius: 10px;
+          background-color: rgba(255, 243, 227, 1);
+          padding: 62px 43px 37px 39px;
+          .p1 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 3px;
+            text-align: left;
+            color: rgba(51, 51, 51, 1);
+          }
+          .p2 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba(51, 51, 51, 1);
+          }
+          h1 {
+            color: rgba(184, 142, 47, 1);
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 65px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 17px;
+            max-width: 400px;
+            margin-top: 4px;
+          }
+          button {
+            width: 222px;
+            height: 74px;
+            top: 585px;
+            left: 778px;
+            padding: 25 72 25 72;
+            gap: 10px;
+            background-color: rgba(184, 142, 47, 1);
+            cursor: pointer;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0px;
+            margin-top: 46px;
+          }
+          button:hover {
+            box-shadow: 0px 0px 20px 4px rgba(184, 142, 47, 1);
+            transition: 0.5s;
+          }
+        }
+      }
     }
+  }
+  .range {
+    .range_text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 60px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: rgba(102, 102, 102, 1);
+        margin-top: 6px;
+      }
+    }
+    .cards {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 60px;
+      .card {
+        text-align: center;
+        p {
+          margin-top: 30px;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 36px;
+          letter-spacing: 0px;
+          text-align: center;
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 9px;
+        }
+      }
+      .card:hover {
+        img {
+          box-shadow: 0px 0px 20px 4px rgb(186, 186, 186);
+          border-radius: 10px;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+  .ourProducts {
+    align-items: center;
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: center;
+      margin-top: 56px;
+      margin-bottom: 30px;
+    }
+    .show_more {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: center;
+      color: rgba(184, 142, 47, 1);
+      width: 245px;
+      height: 48px;
+      background-color: rgba(255, 255, 255, 1);
+      border: 1px solid rgba(184, 142, 47, 1);
+    }
+    .show_more:hover {
+      cursor: pointer;
+    }
+
+    .cardProducts {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .cardProduct {
+        margin-bottom: 12px;
+        width: 286px;
+        background-color: rgba(244, 245, 247, 1);
+        position: relative;
+        .cardProduct_text {
+          padding: 16px 15px 30px 16px;
+          .title {
+            margin-bottom: 8px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28.8px;
+            text-align: left;
+          }
+          .description {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(137, 137, 137, 1);
+          }
+          .prisses {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 8px;
+            .price {
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 30px;
+              text-align: left;
+              color: rgba(58, 58, 58, 1);
+            }
+            .discount {
+              font-size: 16px;
+              text-decoration: line-through;
+              font-weight: 400;
+              line-height: 24px;
+              text-align: left;
+              color: rgba(176, 176, 176, 1);
+            }
+          }
+        }
+        .hovercard {
+          position: absolute;
+          top: 190px;
+          left: 45px;
+          display: none;
+          align-items: center;
+          button {
+            background-color: rgba(255, 255, 255, 1);
+            border: none;
+            width: 202px;
+            height: 48px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: rgba(184, 142, 47, 1);
+          }
+        }
+
+        .circle {
+          width: 50px;
+          display: flex;
+          height: 50px;
+          background-color: rgba(233, 113, 113, 1);
+          position: absolute;
+          top: 12px;
+          right: 12px;
+          color: white;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+        }
+      }
+      .cardProduct:hover {
+        .circle{
+        display: none;
+        }
+        cursor: pointer;
+        background-color: rgba(1, 1, 1, 0.276);
+        img {
+          opacity: 0.5;
+        }
+        .hovercard {
+          display: block;
+          transition: 0.9s;
+        }
+      }
+    }
+  }
+  .funiro {
+    margin-top: 107px;
+    justify-content: center;
+    text-align: center;
+    height: 712px;
+    margin-bottom: 50px;    
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: center;
+      color: rgba(97, 97, 97, 1);
+    
+    }
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: center;
+      color: rgba(58, 58, 58, 1);
+      margin-bottom: 40px;
+    }
+  }
 }
