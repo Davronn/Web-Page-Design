@@ -6,7 +6,7 @@ import arrow from "../assets/arrow.svg";
 function Shop() {
   return (
     <div >
-      <div className="Shop">
+      <div className="shop">
         <div
           className="head"
           style={{
@@ -17,11 +17,11 @@ function Shop() {
         >
           <div className="text container">
             <h2>Shop</h2>
-            <p>
-              <b>Home</b>
+            <div>
+              <span className="home_centr"><b>Home</b></span>
               <img src={arrow} alt="" />
-              Shop
-            </p>
+              Shop   
+            </div>
           </div>
         </div>
       </div>
