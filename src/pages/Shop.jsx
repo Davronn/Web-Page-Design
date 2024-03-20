@@ -6,8 +6,10 @@ import filterimg from "../assets/filter.svg";
 import filter2 from "../assets/filter2.svg";
 import filter3 from "../assets/filter3.svg";
 import Footer2 from "../components/Footer2";
+import { useNavigate } from "react-router-dom";
 
 function Shop() {
+  const navigte = useNavigate()
   const [data, setData] = useState([]);
   useEffect(() => {
     const fetchCard = async () => {
@@ -79,7 +81,7 @@ function Shop() {
                     </span>
                   </div>
                   <div className="hovercard">
-                    <button>Add to card</button>
+                    <button onClick={()=>navigte(`/${item.id}`)}>Add to card</button>
                   </div>
                   {item.circle && <p className="circle"> {item.circle}</p>}
                 </div>

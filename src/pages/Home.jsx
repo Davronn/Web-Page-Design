@@ -4,9 +4,10 @@ import range2 from "../assets/rnge 2.svg";
 import range3 from "../assets/range3.svg";
 import bg2 from "../assets/bg2.svg";
 import "../sass/home.scss";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate()
   const [data, setData] = useState([]);
   useEffect(() => {
     const fetchCard = async () => {
@@ -85,7 +86,7 @@ function Home() {
                   </span>
                 </div>
                 <div className="hovercard">
-                  <button>Add to card</button>
+                  <button onClick={()=>navigate(`/${item.id}`)}>Add to card</button>
                 </div>
                 {item.circle && <p className="circle"> {item.circle}</p>}
               </div>
