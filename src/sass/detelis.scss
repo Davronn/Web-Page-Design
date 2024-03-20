@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
-    height: 820px;
+    margin-bottom: 80px;
     .product_detal-imgs {
       display: flex;
       .img {
@@ -137,7 +137,30 @@
         color: #fff;
         transition: 0.5s;
         border: 1px solid rgba(255, 255, 255);
-      } 
+      }
+      .linee {
+        width: 600px;
+        height: 1px;
+        background-color: rgba(217, 217, 217, 1);
+        margin-top: 60px;
+        margin-bottom: 41px
+      }
+      .share {
+        p {
+          color: rgba(159, 159, 159, 1);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+        }
+        .share_text {
+          display: flex;
+          margin-bottom: 12px;
+          .titul {
+            width: 90px;
+          }
+        }
+      }
     }
   }
 }

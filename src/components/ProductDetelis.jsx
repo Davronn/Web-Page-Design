@@ -59,7 +59,7 @@ function ProductDetelis() {
             </div>
             <div className="product_detal-text">
               <h1>{product.title}</h1>
-              <p className="price">{product.price}</p>
+              <p className="price">Rp:{product.price}</p>
               <div className="imgg">
                 <img src={rating} alt="" />
                 <div className="line"></div>
@@ -81,6 +81,25 @@ function ProductDetelis() {
                 </div>
               </div>
               <button>Add to card</button>
+              <div className="linee"></div>
+              <div className="share">
+                <div className="share_text">
+                  <p className="titul">SKU</p>
+                  <p>:  SS001</p>
+                </div>
+                <div className="share_text">
+                  <p className="titul">Category</p>
+                  <p>: {product.category}</p>
+                </div>
+                <div className="share_text">
+                  <p className="titul">Tags</p>
+                  <p>: {product.category}, Home, Shop</p>
+                </div>
+                <div className="share_text">
+                  <p className="titul">Share</p>
+                  <p>:</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
