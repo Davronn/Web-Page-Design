@@ -2,6 +2,7 @@ import React from "react";
 import "../sass/cart.scss";
 import bgShop from "../assets/shopbg.svg";
 import Footer2 from "../components/Footer2";
+import arrow from "../assets/arrow.svg"
 function Cart() {
   return (
     <div className="cart">
@@ -19,6 +20,7 @@ function Cart() {
             <span className="home_centr">
               <b>Home</b>
             </span>
+            <img src={arrow} alt="" />
             Cart
           </div>
         </div>
