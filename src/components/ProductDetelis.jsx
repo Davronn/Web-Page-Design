@@ -71,6 +71,16 @@ function ProductDetelis() {
                 audio which boasts a clear midrange and extended highs for a
                 sound.
               </p>
+              <div className="size">
+                <p className="opacity">Size</p>
+                <div className="size-line">
+                  <p className="size_box">S</p>
+                  <p className="size_box">M</p>
+                  <p className="size_box">L</p>
+                  <p className="size_box">XL</p>
+                </div>
+              </div>
+              <button>Add to card</button>
             </div>
           </div>
         </div>
