@@ -56,7 +56,9 @@ function ProductDetelis() {
               </div>
               <img className="img" src={product.image} alt="" />
             </div>
-            <div className="product_detal-text"></div>
+            <div className="product_detal-text">
+              <h1>{product.title}</h1>
+            </div>
           </div>
         </div>
       </div>
