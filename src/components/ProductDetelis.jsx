@@ -3,6 +3,7 @@ import "../sass/detelis.scss";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import arrow from "../assets/arrow.svg";
+import rating from "../assets/reating.svg";
 
 function ProductDetelis() {
   const { postId } = useParams();
@@ -58,6 +59,18 @@ function ProductDetelis() {
             </div>
             <div className="product_detal-text">
               <h1>{product.title}</h1>
+              <p className="price">{product.price}</p>
+              <div className="imgg">
+                <img src={rating} alt="" />
+                <div className="line"></div>
+                <p>5 Customer Review</p>
+              </div>
+              <p className="lorem">
+                Setting the bar as one of the loudest speakers in its class, the
+                Kilburn is a compact, stout-hearted hero with a well-balanced
+                audio which boasts a clear midrange and extended highs for a
+                sound.
+              </p>
             </div>
           </div>
         </div>

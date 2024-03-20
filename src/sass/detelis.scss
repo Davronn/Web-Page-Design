@@ -30,32 +30,75 @@
     justify-content: space-between;
     margin-top: 32px;
     height: 820px;
-    .product_detal-imgs{
+    .product_detal-imgs {
+      display: flex;
+      .img {
+        widows: 423px;
+        height: 500px;
+        margin-left: 31px;
+      }
+      .imgg-line {
         display: flex;
-        .img{
-            widows: 423px;
-            height: 500px;
-            margin-left: 31px;
+        flex-direction: column;
+        img {
+          width: 80px;
+          height: 76px;
+          border-radius: 10px;
+          margin-bottom: 32px;
+          cursor: pointer;
         }
-        .imgg-line{
-            display: flex;
-            flex-direction: column;
-            img{
-                width: 80px;
-                height: 76px;
-                border-radius: 10px;
-                margin-bottom: 32px;
-                cursor: pointer;
-            }
+      }
+    }
+    .product_detal-text {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      h1 {
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 63px;
+        text-align: left;
+      }
+      .price {
+        font-size: 29px;
+        font-weight: 500;
+        line-height: 36px;
+        color: rgba(159, 159, 159, 1);
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      img {
+        width: 124px;
+      }
+      .imgg {
+        display: flex;
+        p {
+          color: rgba(159, 159, 159, 1);
         }
+        .line {
+          height: 30px;
+          border: 2px solid rgba(159, 159, 159, 1);
+          margin-right: 24px;
+          margin-left: 25px;
+        }
+      }
+      .lorem {
+        width: 420px;
+        margin-top: 20px;
+        margin-bottom: 22px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: left;
+      }
     }
   }
 }
 
-.scrolto{
-    position: absolute;
-    right: 20px;
-    h1{
-        font-size: 50px;
-    }
+.scrolto {
+  position: absolute;
+  right: 20px;
+  h1 {
+    font-size: 50px;
+  }
 }
