@@ -1,6 +1,7 @@
 import React from "react";
 import "../sass/cart.scss";
 import bgShop from "../assets/shopbg.svg";
+import Footer2 from "../components/Footer2";
 function Cart() {
   return (
     <div className="cart">
@@ -22,6 +23,7 @@ function Cart() {
           </div>
         </div>
       </div>
+      <Footer2/>
     </div>
   );
 }
