@@ -13,12 +13,12 @@ function Cart() {
         }}
       >
         <div className="text container">
-          <h2>Shop</h2>
+          <h2>Cart</h2>
           <div>
             <span className="home_centr">
               <b>Home</b>
             </span>
-            Shop
+            Cart
           </div>
         </div>
       </div>
