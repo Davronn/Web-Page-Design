@@ -80,12 +80,14 @@ function ProductDetelis() {
                   <p className="size_box">XL</p>
                 </div>
               </div>
-              <button>Add to card</button>
+              <Link to="/cart">
+                <button>Add to card</button>
+              </Link>
               <div className="linee"></div>
               <div className="share">
                 <div className="share_text">
                   <p className="titul">SKU</p>
-                  <p>:  SS001</p>
+                  <p>: SS001</p>
                 </div>
                 <div className="share_text">
                   <p className="titul">Category</p>

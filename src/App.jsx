@@ -5,6 +5,7 @@ import Header from "./components/Header.jsx";
 import Shop from "./pages/Shop.jsx";
 import Footer from "./components/Footer.jsx";
 import ProductDetelis from "./components/ProductDetelis.jsx";
+import Cart from "./pages/Cart.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/:postId" element={<ProductDetelis />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer />
       </Router>
